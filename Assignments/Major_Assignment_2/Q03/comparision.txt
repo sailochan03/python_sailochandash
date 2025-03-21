@@ -1,0 +1,6 @@
+Comparison with iterative version of the algorithm.
+
+   - Both recursive and iterative versions have a time complexity of O(log b).
+   - The iterative version generally has a lower overhead because it avoids recursive function calls.
+   - The iterative version takes O(1) space, while the recursive version has a space complexity of O(log b).
+   - For very large exponents, the iterative version is generally preferred due to its lower space complexity.

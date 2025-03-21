@@ -1,0 +1,7 @@
+Comparison between Iterative and Recursive sum function.
+
+Though the time complexity of both the functions are equal i.e. O(n), but still there are some other factors which makes recursive function less efficient than iterative ones.
+
+1. Space complexity : Recursive function creates new layer to stack frame, which consumes more memory. For n number of recursive calls, it creates O(n) space complexity, whereas iterative function takes O(1) space.
+
+2. Function call overhead : Each recursive call involves more overhead because, it has to push and pop function's context again and again onto and from the call stack frame.
